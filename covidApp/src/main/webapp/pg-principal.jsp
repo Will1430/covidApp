@@ -1,4 +1,4 @@
-<%@page import="model.Usuario"%>
+<%@page import="model.Usuario"%>w
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <!doctype html>
@@ -59,7 +59,7 @@
 		<div class="button-menu-covidApp">
 			<div>
 				<a href="img/dadosCovid.png" download="dadosCovid.png">
-					<button class="column-sm button-menu1  btn btn-lg " type="button">Obterdados</button>
+					<button class="column-sm button-menu1  btn btn-lg " type="button" onclick="confirm('Você realmente deseja fazer o download ?')">Obterdados</button>
 				</a>
 			</div>
 		</div>
